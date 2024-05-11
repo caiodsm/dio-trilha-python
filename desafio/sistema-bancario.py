@@ -38,7 +38,8 @@ while True:
             print("você atingiu o limite de saque diário")
     elif opcao == "e":
         print("\n================ EXTRATO ================")
-        print("Não foram realizadas movimentações." if not extrato else extrato)
+        print(
+            "Não foram realizadas movimentações." if not extrato else extrato)
         print(f"\nSaldo: R$ {saldo:.2f}")
         print("==========================================")
 
@@ -46,4 +47,6 @@ while True:
         break
 
     else:
-        print("Operação inválida, por favor selecione novamente a opção desejada")
+        print(
+            "Operação inválida, por favor selecione novamente a opção desejada"
+        )
