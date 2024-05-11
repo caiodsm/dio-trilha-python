@@ -1,6 +1,6 @@
 print("hello world!")
 
-#retorna lista de nomes no escopo local usar no terminal
+# retorna lista de nomes no escopo local usar no terminal
 dir()
 
 # traz mais informações e você pode clicar no Q pra sair do que voce entrou
