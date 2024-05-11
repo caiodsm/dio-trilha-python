@@ -1,7 +1,7 @@
 print(11 * 10)
 print(3.14)
 print(True)
-print('Python')
+print("Python")
 
 int()
 float()
